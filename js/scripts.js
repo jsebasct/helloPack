@@ -1,16 +1,17 @@
 
 
-// require("./module1");
-// require("./module2");
-
-
 import React from "react";
 import ReactDOM from "react-dom";
 
 class Layout extends React.Component {
     render() {
         return (
-            <h2>It Works really fine!!! </h2>
+        	<div>
+				<h2>This is the new App !!! </h2>
+            	<h3>It Works really fine !!! </h3>
+            	<h4>Last Title !! </h4>
+            	<h4>Gustavo Martinez  </h4>
+            </div>
         );
     }
 }
